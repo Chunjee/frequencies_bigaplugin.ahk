@@ -1,0 +1,13 @@
+{
+	"name": "frequencies_bigaplugin.ahk",
+	"version": "0.1.0",
+	"description": "adds the method `frequencies` to biga.ahk",
+	"main": "export.ahk",
+	"dependencies": { },
+	"devDependencies": {
+		"unit-testing.ahk": "^0.6.1",
+		"biga.ahk": "^0.50.0"
+	},
+	"author": "Shawn Brooker",
+	"license": "MIT"
+}
