@@ -28,15 +28,15 @@ takes an array and returns a mapping object whose keys are the values of the arr
 
 
 #### Arguments
-array (Array): The given array from which mapping is to be created.
+array (Array): The array to count frequencies from.
 
 
 #### Returns
-(Object): This method returns a created mapping object.
+(Object): A mapping object of the ammount of times each value appeared in the array.
 
 
 ##### Example
 ```autohotkey
-A.frequencies(["Fred", "Barney, "Fred", "Pepples", "Barney"])
+A.frequencies(["Fred", "Barney", "Fred", "Pepples", "Barney"])
 ; => {"Barney": 2, "Fred": 2, "Pepples": 1}
 ```
