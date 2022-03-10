@@ -3,11 +3,31 @@
 	"version": "0.1.0",
 	"description": "adds the method `frequencies` to biga.ahk",
 	"main": "export.ahk",
-	"dependencies": { },
+	"dependencies": {},
 	"devDependencies": {
 		"unit-testing.ahk": "^0.6.1",
 		"biga.ahk": "^0.50.0"
 	},
 	"author": "Shawn Brooker",
-	"license": "MIT"
+	"license": "MIT",
+	"directories": {
+		"test": "test"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Chunjee/frequencies_bigaplugin.ahk.git"
+	},
+	"keywords": [
+		"biga",
+		"ahk",
+		"autohotkey",
+		"frequencies"
+	],
+	"bugs": {
+		"url": "https://github.com/Chunjee/frequencies_bigaplugin.ahk/issues"
+	},
+	"homepage": "https://github.com/Chunjee/frequencies_bigaplugin.ahk#readme"
 }
