@@ -1,4 +1,4 @@
-class frequencies_plugin {
+class frequencies_bigaplugin {
 	frequencies(param_array,param_iteratee:="__identity") {
 		if (!isObject(param_array)) {
 			this._internal_ThrowException()
@@ -21,4 +21,4 @@ class frequencies_plugin {
 	}
 }
 
-biga.base := frequencies_plugin
+biga.base := frequencies_bigaplugin
