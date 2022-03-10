@@ -1,5 +1,5 @@
 class frequencies_bigaplugin {
-	frequencies(param_array,param_iteratee:="__identity") {
+	frequencies(param_array) {
 		if (!isObject(param_array)) {
 			this._internal_ThrowException()
 		}
@@ -15,7 +15,7 @@ class frequencies_bigaplugin {
 			if (l_array[value] == "") {
 				l_array[value] := 0
 			}
-			l_array[value] := l_array[value] + 1
+			l_array[value] += 1
 		}
 		return l_array
 	}
