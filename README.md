@@ -27,15 +27,15 @@ A.frequencies([1, 1, 3, 3, 4, 4, 5, 5, 8, 8])
 takes an array and returns a mapping object whose keys are the values of the array’s elements and values are counts of that key appeared in that array.
 
 
-## Arguments
+#### Arguments
 array (Array): The given array from which mapping is to be created.
 
 
-## Returns
+#### Returns
 (Object): This method returns a created mapping object.
 
 
-## Example
+##### Example
 ```autohotkey
 A.frequencies(["Fred", "Barney, "Fred", "Pepples", "Barney"])
 ; => {"Barney": 2, "Fred": 2, "Pepples": 1}
