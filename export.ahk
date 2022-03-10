@@ -4,11 +4,6 @@ class frequencies_bigaplugin {
 			this._internal_ThrowException()
 		}
 
-		; prepare
-		if (this.isStringLike(param_array)) {
-			param_array := strSplit(param_array, "")
-		}
-
 		; create
 		l_array := []
 		for key, value in param_array {
