@@ -1,3 +1,5 @@
+biga.base := frequencies_bigaplugin
+
 class frequencies_bigaplugin {
 	frequencies(param_array) {
 		if (!isObject(param_array)) {
@@ -15,5 +17,3 @@ class frequencies_bigaplugin {
 		return l_array
 	}
 }
-
-biga.base := frequencies_bigaplugin
